@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Button
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="start service"
+    	android:padding="15dp"
+    	android:id="@+id/start_service"
+    	android:gravity="center"
+    	/>
+	<Button
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="stop service"
+    	android:padding="15dp"
+    	android:id="@+id/stop_service"
+    	android:gravity="center"
+    	/>
+    <Button
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="start binder service"
+    	android:padding="15dp"
+    	android:id="@+id/start_binder_service"
+    	android:gravity="center"
+    	/>
+	<Button
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="stop binder service"
+    	android:padding="15dp"
+    	android:id="@+id/stop_binder_service"
+    	android:gravity="center"
+    	/>
+    
+</LinearLayout>
